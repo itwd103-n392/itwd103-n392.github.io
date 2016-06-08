@@ -1,6 +1,16 @@
-function preloaderInit() {
-    showPreloader();
-    $(window).load(function() {
-        hidePreloader();
-    });
-}
+(function(){
+  "use strict";
+
+
+$(function ($) {
+
+    function preloaderInit() {
+        showPreloader();
+        $(window).load(function() {
+            hidePreloader();
+        });
+    }
+
+});
+
+})();
