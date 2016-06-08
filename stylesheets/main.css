@@ -1,0 +1,22 @@
+html, body{
+  overflow-x: hidden;
+}
+p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color:#999;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+a:focus { 
+      outline: none; 
+}
