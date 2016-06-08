@@ -47,18 +47,18 @@
   .mastwrap{
     margin-top: 50px;
   }
-  .works-masonry-container .works-item, .works-masonry-container .works-item-one-third, 
-  .works-masonry-container .works-item-two-third, .works-masonry-container .works-item-one-half,
-  .works-masonry-container .works-item-one-fourth{
+  .works-masonry-container .projects-item, .works-masonry-container .projects-item-one-third, 
+  .works-masonry-container .projects-item-two-third, .works-masonry-container .projects-item-one-half,
+  .works-masonry-container .projects-item-one-fourth{
     width: 50% !important;
   }
-  .works-masonry-container .works-item-spaced, .works-masonry-container .works-item-one-third-spaced, 
-  .works-masonry-container .works-item-two-third-spaced, .works-masonry-container .works-item-one-half-spaced,
-  .works-masonry-container .works-item-one-fourth-spaced{
+  .works-masonry-container .projects-item-spaced, .works-masonry-container .projects-item-one-third-spaced, 
+  .works-masonry-container .projects-item-two-third-spaced, .works-masonry-container .projects-item-one-half-spaced,
+  .works-masonry-container .projects-item-one-fourth-spaced{
     width: 48% !important;
     margin: 1% !important;
   }
-  .works-masonry-container .works-item-full-width, .works-masonry-container .works-item-full-width-spaced{
+  .works-masonry-container .projects-item-full-width, .works-masonry-container .projects-item-full-width-spaced{
     width: 100% !important;
     margin: 0 !important;
   }
@@ -114,14 +114,14 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .works-masonry-container .works-item, .works-masonry-container .works-item-one-third, 
-  .works-masonry-container .works-item-two-third, .works-masonry-container .works-item-one-half,
-  .works-masonry-container .works-item-one-fourth{
+  .works-masonry-container .projects-item, .works-masonry-container .projects-item-one-third, 
+  .works-masonry-container .projects-item-two-third, .works-masonry-container .projects-item-one-half,
+  .works-masonry-container .projects-item-one-fourth{
     width: 100% !important;
   }
-  .works-masonry-container .works-item-spaced, .works-masonry-container .works-item-one-third-spaced, 
-  .works-masonry-container .works-item-two-third-spaced, .works-masonry-container .works-item-one-half-spaced,
-  .works-masonry-container .works-item-one-fourth-spaced{
+  .works-masonry-container .projects-item-spaced, .works-masonry-container .projects-item-one-third-spaced, 
+  .works-masonry-container .projects-item-two-third-spaced, .works-masonry-container .projects-item-one-half-spaced,
+  .works-masonry-container .projects-item-one-fourth-spaced{
     width: 98% !important;
     margin: 1% !important;
   }
@@ -156,7 +156,7 @@
     font-size: 48px;
     line-height: 55px;
   }
-  .works-item-inner h3{
+  .projects-item-inner h3{
     font-size: 14px;
     line-height: 21px;
   }
