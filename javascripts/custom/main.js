@@ -145,7 +145,7 @@ function initUX() {
 
             setTimeout(function() {
                 $(".projects-filter-trigger").click();
-            }, 2000);
+            }, 1500);
            
         });
 }
