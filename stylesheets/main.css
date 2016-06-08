@@ -20,3 +20,31 @@ a:hover{
 a:focus { 
       outline: none; 
 }
+
+/*Preloader*/
+html.preloader-running, body.preloader-running{ 
+  overflow: hidden; 
+}
+html.preloader-running .sticky-sidebar{
+  display: block;
+}
+body.preloader-running{
+    overflow: hidden;
+}
+body.preloader-running #ajax-content{
+  opacity: 0;
+}
+
+div#preloader { 
+  background: none repeat scroll 0 0 white; 
+  height: 100%; 
+  left: 240px; 
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+  z-index: 99999; 
+}
+
+#status { 
+  background-image: url(../images/loader.gif); 
+}
