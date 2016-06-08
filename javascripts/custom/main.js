@@ -3,6 +3,7 @@
 
 
 $(function ($) {
+    preloaderInit();
 
     function preloaderInit() {
         showPreloader();
